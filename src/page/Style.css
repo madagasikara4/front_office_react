@@ -1,0 +1,89 @@
+.Login  {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form , .Inscription{
+    background-image: url("../assets/images/enchere.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 2cm;
+    padding: 2rem;
+    width: 12cm;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+
+  .fenetre{
+    width: 12cm;
+  }
+  .prix{
+    margin-left: .5cm;
+    font-size: bold;
+  }
+
+  .image{
+    margin-left: 40%;
+    margin-top: 1cm;
+    width: 50%;
+  }
+  .sign{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+  }
